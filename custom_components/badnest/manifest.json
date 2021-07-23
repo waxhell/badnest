@@ -1,9 +1,11 @@
 {
     "domain": "badnest",
+    "version": "0.0.1",
     "name": "Bad Nest (A hack around the Nest component to pull from their internal api)",
-    "documentation": "https://github.com/therealryanbonham/badnest/blob/master/info.md",
-    "issue_tracker": "https://github.com/therealryanbonham/badnest/issues",
+    "documentation": "https://github.com/farhad-a/badnest/blob/master/info.md",
+    "issue_tracker": "https://github.com/farhad-a/badnest/issues",
+    "codeowners": ["@farhad-a"],
     "dependencies": [],
-    "codeowners": ["@therealryanbonham"],
-    "requirements": []
+    "requirements": [],
+    "iot_class": "cloud_polling"
 }
