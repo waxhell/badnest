@@ -32,7 +32,7 @@ two-character country code, and it should work.
 ```yaml
 badnest:
   issue_token: "https://accounts.google.com/o/oauth2/iframerpc....."
-  cookie: "OCAK=......"
+  cookie: "ANID=......"
   region: us
 
 climate:
@@ -59,7 +59,7 @@ The values of `"issue_token"` and `"cookie"` are specific to your Google Account
 7. In the Headers tab, under General, copy the entire `Request URL` (beginning with `https://accounts.google.com`, ending with `nest.com`). This is your `"issue_token"` in `configuration.yaml`.
 8. In the 'Filter' box, enter `oauth2/iframe`
 9. Several network calls will appear in the Dev Tools window. Click on the last `iframe` call.
-10. In the Headers tab, under Request Headers, copy the entire `cookie` (beginning `OCAK=...` - **include the whole string which is several lines long and has many field/value pairs** - do not include the `cookie:` name). This is your `"cookie"` in `configuration.yaml`.
+10. In the Headers tab, under Request Headers, copy the entire `cookie` (beginning `ANID=...` - **include the whole string which is several lines long and has many field/value pairs** - do not include the `cookie:` name). This is your `"cookie"` in `configuration.yaml`.
 
 ## Notes
 
